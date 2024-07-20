@@ -4,4 +4,4 @@ COPY docker-entrypoint.sh /opt/keycloak_heroku/tools
 
 WORKDIR /opt/keycloak
 
-RUN ./bin/kc.sh start
+RUN ./bin/kc.sh start-dev
