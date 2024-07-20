@@ -5,7 +5,7 @@ to Heroku. It is based of Keycloak's official docker image with some slight modi
 Heroku variable for `PORT` and `DATABASE_URL` properly, also enabling the [edge](https://github.com/keycloak/keycloak-community/blob/main/design/keycloak.x/configuration.md#proxy-mode)
 proxy mode by default.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ahmedelraei/keycloak-heroku)
 
 ### Manual Deployment (Optional)
 
