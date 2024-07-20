@@ -14,7 +14,7 @@
   "repository": "https://github.com/ahmedeleai/keycloak-heroku",
   "logo": "https://design.jboss.org/keycloak/logo/images/keycloak_icon_128px.png",
   "success_url": "/",
-  "environments": {
+  "env": {
     "KEYCLOAK_ADMIN": {
       "description": "Initial Admin user name",
       "value": "admin"
