@@ -1,19 +1,9 @@
 # Deploy Keycloak to Heroku
 
-This repository deploys the [Keycloak.X](https://www.keycloak.org) Identity and Access Management Solution
+This repository deploys the [Keycloak](https://www.keycloak.org) Identity and Access Management Solution
 to Heroku. It is based of Keycloak's official docker image with some slight modifications to use the
 Heroku variable for `PORT` and `DATABASE_URL` properly, also enabling the [edge](https://github.com/keycloak/keycloak-community/blob/main/design/keycloak.x/configuration.md#proxy-mode)
 proxy mode by default.
-
-Keycloak.X uses Quarkus as the platform to build Keycloak. Compared to WildFly this gives faster startup-time
-and lower memory footprint which makes it possible for us to use a `free` dyno instance together with a `hobby-dev`
-Postgres database attached.
-
-You only need to have a Heroku (free) account and everything will be sorted out with a click of a button via the web console :)
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-### Manual Deployment (Optional)
 
 If you **don't want to use** the `Deploy to Heroku` button above for any reason, you need the Heroku CLI installed, so you can deploy this manually in a few steps after cloning this repository:
 
@@ -32,4 +22,4 @@ git push heroku main
 
 - [Keycloak Docker Image](https://quay.io/repository/keycloak/keycloak?tab=tags&tag=latest)
 - [Keycloak Server Configuration](https://github.com/keycloak/keycloak-community/blob/main/design/keycloak.x/configuration.md)
-- [Deploy Keycloak to Heroku (Wildfly)](https://github.com/mieckert/keycloak-heroku)
+- [Deploy Keycloak to Heroku (Wildfly)](https://github.com/ahmedlraei/keycloak-heroku)
