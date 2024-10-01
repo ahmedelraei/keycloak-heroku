@@ -4,4 +4,4 @@ COPY docker-entrypoint.sh /opt/keycloak_heroku/tools
 
 WORKDIR /opt/keycloak
 
-ENTRYPOINT ["./bin/kc.sh", "start", "--optimized"]
+ENTRYPOINT ["./bin/kc.sh", "start"]
